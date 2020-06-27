@@ -224,6 +224,12 @@ a {
   text-decoration: none;
 }
 
+.banner:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, left top, right top, from(#5221e6), to(#8d21e6));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), -o-linear-gradient(left, #5221e6, #8d21e6);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(90deg, #5221e6, #8d21e6);
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
