@@ -1,6 +1,8 @@
 # Portfolio
 
-Portfolio is free to use website template made using HTML, CSS, JS
+Portfolio is free to use website template made using HTML, CSS, JS.
+
+[Designed by Chethan KVS](https://www.chethankvs.design/)
 
 ## Installation
 Download the repository or clone using
