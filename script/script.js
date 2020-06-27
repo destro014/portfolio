@@ -1,9 +1,3 @@
-let magicScroll = new MagicScroll({
-  target: document.querySelector("#scroll-element"),
-  speed: 80,
-  smooth: 12,
-  current: 0, // position
-});
 AOS.init({
   once: false,
   easing: "ease-out-quart",
