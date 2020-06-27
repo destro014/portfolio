@@ -1,0 +1,31 @@
+.client-section {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    .clients {
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 0;
+    }
+    .client {
+        height: 140px;
+        width: 24vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid getColor(secondary-base);
+    }
+}
+@media screen and (max-width: 991px) {
+    .client-section {
+        .clients {
+            grid-template-columns: 1fr 1fr;
+            transform: translate3d(0, 0, 0) !important;
+        }
+        .client {
+            width: auto;
+        }
+    }
+}
